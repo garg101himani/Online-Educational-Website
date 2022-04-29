@@ -1,6 +1,10 @@
 .hero__content h2 {
-  font-weight: 600;
+  font-weight: 900;
   line-height: 55px;
+  font-style: italic;
+}
+h2{
+  font-size:50px;
 }
 
 .hero__content {
@@ -20,4 +24,8 @@
   align-items: center;
   border-radius: 50px;
   margin-top: 20px;
+}
+
+.hero_Img{
+  margin-top:60px;
 }

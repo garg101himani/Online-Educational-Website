@@ -7,10 +7,13 @@
 }
 
 .choose__content h2 {
-  font-weight: 600;
+  font-weight: 1600;
+  /* font-height:800; */
+  font-size: 80px;
+  margin-bottom: 50px;
 }
 
-.choose__img {
+/* .choose__img {
   position: relative;
   top: 0;
   left: 0;
@@ -39,4 +42,4 @@
   color: #17bf9e;
   font-size: 2rem;
   padding: 10px;
-}
+} */

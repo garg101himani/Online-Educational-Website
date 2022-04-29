@@ -14,10 +14,16 @@
   padding-left: 50px;
 }
 
+.about__img {
+  /* align-items:center; */
+  margin-top: 60px;
+}
+
 .about__img img {
-  border-radius: 15px;
+  border-radius: 30px;
 }
 
 .about__content h2 {
   font-weight: 600;
+  font-size:40px;
 }

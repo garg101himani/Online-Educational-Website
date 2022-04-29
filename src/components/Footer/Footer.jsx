@@ -8,6 +8,7 @@ const footerQuickLinks = [
     display: "Home",
     url: "#",
   },
+
   {
     display: "About US",
     url: "#",
@@ -18,10 +19,10 @@ const footerQuickLinks = [
     url: "#",
   },
 
-  {
-    display: "Blog",
-    url: "#",
-  },
+  // {
+  //   display: "Blog",
+  //   url: "#",
+  // },
 ];
 
 const footerInfoLinks = [
@@ -39,10 +40,10 @@ const footerInfoLinks = [
     url: "#",
   },
 
-  {
-    display: "Terms of Service",
-    url: "#",
-  },
+  // {
+  //   display: "Terms of Service",
+  //   url: "#",
+  // },
 ];
 
 const Footer = () => {
@@ -65,21 +66,21 @@ const Footer = () => {
               </span>
 
               <span>
-                {" "}
+                {/* {" "} */}
                 <a href="facebook.com">
                   <i class="ri-instagram-line"></i>
                 </a>
               </span>
 
               <span>
-                {" "}
+                {/* {" "} */}
                 <a href="facebook.com">
                   <i class="ri-linkedin-line"></i>
                 </a>
               </span>
 
               <span>
-                {" "}
+                {/* {" "} */}
                 <a href="facebook.com">
                   <i class="ri-twitter-line"></i>
                 </a>
@@ -114,9 +115,9 @@ const Footer = () => {
           <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
+            <p>Phone:+91-99999999</p>
+          
+            <p>Email: learningsolutions@gmail.com</p>
           </Col>
         </Row>
       </Container>

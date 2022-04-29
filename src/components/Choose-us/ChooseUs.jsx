@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "reactstrap";
+// import heroImg from "../../assests/images/img1.jpg";
 
 import chooseImg from "../../assests/images/why-choose-us.png";
 import "./choose-us.css";
@@ -12,30 +13,29 @@ const ChooseUs = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="6" md="6">
+          {/* <Col lg="6" md="6"> */}
             <div className="choose__content">
               <h2>Why Choose Us</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt mollitia nostrum harum eos praesentium odit a sed quod
-                aut fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reprehenderit omnis, culpa eligendi inventore perspiciatis
-                minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores cupiditate facilis provident quidem accusamus impedit
-                tenetur laboriosam debitis nisi eius!
+               WE ARE THE BEST WITH HIGHLY QUALIFIED TEACHERS. OUR APPROACH IS DISTINCLY INNOVATIVE.
+               WE HAVE HIGHLY SKILLED TEACHERS WITH EXCELLENT TECHNICAL KNOWLEDGE AND EXPERIENCE IN USING THE LATEST SOFTWARE 
+               STANDARDS.WE HAVE BUILT A LARGE POOL OF KNOWLEDGE THAT WE APPLY TO DELIVER SOLUTIONS THAT MEET CLIENTS NEEDS AND
+               EXPECTATIONS.WE DELIEVER AMAZING USER EXPERIENCES THROUGH TECHNOLOGY TO THE PEOPLE WHO TRUSTED US AROUND THE GLOBE.
+               BEING THE TECH SPECIALISTS, WE CREATE SOLUTIONS THAT ALLOW US TO DO IT ALL IN AN EASY AND SEAMLESS MANNER.BE WITH US 
+               TO GROW TOGETHER.
+             
               </p>
             </div>
-          </Col>
+          {/* </Col> */}
 
-          <Col lg="6" md="6">
+          {/* <Col lg="6"  md="6"></Col>
+          <img src={heroImg} alt="" className="w-100 hero_img"/>
+          </Col> */}
+
+          {/* <Col lg="6" md="6">
             <div className="choose__img">
               {showVideo ? (
-                <ReactPlayer
-                  url="https://www.youtube.com/watch?v=qFp27TR4Yew"
-                  controls
-                  width="100%"
-                  height="350px"
-                />
+               z
               ) : (
                 <img src={chooseImg} alt="" className="w-100" />
               )}
@@ -49,7 +49,7 @@ const ChooseUs = () => {
                 </span>
               )}
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </section>

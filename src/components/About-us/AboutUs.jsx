@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "../../assests/images/about-us.png";
+
+import aboutImg from  "../../assests/images/webdev.jpg";
 import CountUp from "react-countup";
 import "./about.css";
 
@@ -20,9 +21,9 @@ const AboutUs = () => {
             <div className="about__content">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Excepturi cupiditate animi deserunt libero nesciunt corporis
-                explicabo nobis ex quo molestiae!
+              Learners imparts your perception and directs 
+              you with latest technologies and develop 
+              your skills by quality training.            
               </p>
 
               <div className="about__counter">
@@ -44,7 +45,7 @@ const AboutUs = () => {
                   </div>
                 </div>
 
-                <div className=" d-flex gap-5 align-items-center">
+                <div className="d-flex gap-5 align-items-center">
                   <div className="single__counter">
                     <span className="counter">
                       <CountUp start={0} end={95} duration={2} suffix="M" />

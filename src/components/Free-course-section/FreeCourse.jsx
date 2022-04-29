@@ -12,7 +12,7 @@ import "./free-course.css";
 const freeCourseData = [
   {
     id: "01",
-    title: "Basic Web Development Course",
+    title: " Web Development Course",
     imgUrl: courseImg01,
     students: 5.3,
     rating: 1.7,
@@ -27,7 +27,7 @@ const freeCourseData = [
 
   {
     id: "03",
-    title: "Search Engine Optimization - Basic",
+    title: "Search Engine Optimization",
     imgUrl: courseImg03,
     students: 5.3,
     rating: 1.7,
@@ -48,7 +48,7 @@ const FreeCourse = () => {
       <Container>
         <Row>
           <Col lg="12" className="text-center mb-5">
-            <h2 className="fw-bold">Our Free Courses</h2>
+            <h2 >Our  Courses</h2>
           </Col>
 
           {freeCourseData.map((item) => (
